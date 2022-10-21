@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="Regression Test" parallel="none">
+        <classes>
+            <!-- All Person -->
+            <class name="Pharos.TRN" />
+            <class name="Pharos.TRN_IQ" />
+            <class name="Pharos.A_TSU" />
+            <class name="Pharos.A_TSU_IQ" />
+            <class name="Pharos.B_TRC" />
+            <class name="Pharos.B_TRC_IQ" />
+            <class name="Pharos.TII" />
+            <class name="Pharos.TIR" />
+            <class name="Pharos.TUP_AvalToLoss" />
+            <class name="Pharos.TUP_IQ" />
+            <class name="Pharos.TUP_LossToAvail" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

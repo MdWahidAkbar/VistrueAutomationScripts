@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="Regression Test" parallel="none">
+        <classes>
+            <!-- All Person -->
+            <class name="Prod_Environment.Count_Summary.Count_Summary" />
+            <class name="Prod_Environment.LookUp_Page.Lookup_Page" />
+            <class name="Prod_Environment.ReturnDefective_Counts.RDCounts_NoVariance" />
+            <class name="Prod_Environment.Physical_Counts.Counts_NoVariance" />
+            <class name="Prod_Environment.UpgradeTradeIn_Counts.UTCounts_Variance1" />
+            <class name="Prod_Environment.Weekly_Counts.Counts_Variance2" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

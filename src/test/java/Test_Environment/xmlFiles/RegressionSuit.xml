@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="Regression Test" parallel="none">
+        <classes>
+            <!-- All Person -->
+            <class name="Test_Environment.Receiving.Receiving_Transactions" />
+            <class name="Test_Environment.Receiving.ShareModal_Receiving" />
+            <class name="Test_Environment.Shipping.Shipping_Transactions" />
+            <class name="Test_Environment.LookUp_Page.Lookup_Page" />
+            <class name="Test_Environment.Physical_Counts.Phy_Counts_NoVariance" />
+            <class name="Test_Environment.Physical_Counts.Phy_Counts_Variance1" />
+            <class name="Test_Environment.Physical_Counts.Phy_Counts_Variance2" />
+            <class name="Test_Environment.Corrective_Count.Corctive_Count_NoScan" />
+            <class name="Test_Environment.Corrective_Count.Corctive_Count_NoVariance" />
+            <class name="Test_Environment.Corrective_Count.Corctive_Counts_Variance1" />
+            <class name="Test_Environment.Corrective_Count.Corctive_Counts_Variance2" />
+            <class name="Test_Environment.Weekly_Counts.Wkly_Counts_NoVariance" />
+            <class name="Test_Environment.Weekly_Counts.Wkly_Counts_Variance1" />
+            <class name="Test_Environment.Weekly_Counts.Wkly_Counts_Variance2" />
+            <class name="Test_Environment.ReturnDefective_Counts.RDCounts_NoVariance" />
+            <class name="Test_Environment.ReturnDefective_Counts.RDCounts_Variance1" />
+            <class name="Test_Environment.ReturnDefective_Counts.RDCounts_Variance2" />
+            <class name="Test_Environment.UpgradeTradeIn_Counts.UTCounts_NoVariance" />
+            <class name="Test_Environment.UpgradeTradeIn_Counts.UTCounts_Variance1" />
+            <class name="Test_Environment.UpgradeTradeIn_Counts.UTCounts_Variance2" />
+            <class name="Test_Environment.Void_Transactions.Weekly_Counts_Void" />
+            <class name="Test_Environment.Void_Transactions.RD_Counts_Void" />
+            <class name="Test_Environment.Void_Transactions.Shipping_Void" />
+            <class name="Test_Environment.RUP.RUP_AvailToLost" />
+            <class name="Test_Environment.RUP.RUP_LostToAvail" />
+            <class name="Test_Environment.Count_Summary.Count_Summary" />
+            <class name="Test_Environment.Transaction_History.CustomDate_TransactionHistory" />
+            <class name="Test_Environment.Transaction_History.ShareModal_TransactionHistory" />
+            <class name="Test_Environment.Share_Modal.ShareModal_CountSummary" />
+            <class name="Test_Environment.Share_Modal.ShareModal_StoreInventory" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

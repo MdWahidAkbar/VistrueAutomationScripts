@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="Regression Test" parallel="none">
+        <classes>
+            <!-- All Person -->
+
+
+            <!--TRN should be avoided in PROD until we are allowed to destroy our created Serials....
+
+            <class name="Prod_Environment.PharosProd.TRN" />
+            -->
+
+            <class name="Prod_Environment.PharosProd.TRN_IQ" />
+            <class name="Prod_Environment.PharosProd.A_TSU" />
+            <class name="Prod_Environment.PharosProd.A_TSU_IQ" />
+            <class name="Prod_Environment.PharosProd.B_TRC" />
+            <class name="Prod_Environment.PharosProd.B_TRC_IQ" />
+            <class name="Prod_Environment.PharosProd.TII" />
+            <class name="Prod_Environment.PharosProd.TIR" />
+            <class name="Prod_Environment.PharosProd.TUP_AvalToLoss" />
+            <class name="Prod_Environment.PharosProd.TUP_IQ" />
+            <class name="Prod_Environment.PharosProd.TUP_LossToAvail" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

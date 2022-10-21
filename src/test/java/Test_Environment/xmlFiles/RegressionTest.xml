@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="Regression Test" parallel="none">
+        <classes>
+            <!-- All Person -->
+            <class name="Test_Environment.Count_Summary.Count_Summary" />
+            <class name="Test_Environment.LookUp_Page.Lookup_Page" />
+            <class name="Test_Environment.ReturnDefective_Counts.RDCounts_NoVariance" />
+            <class name="Test_Environment.Corrective_Count.Corctive_Count_NoVariance" />
+            <class name="Test_Environment.Physical_Counts.Phy_Counts_NoVariance" />
+            <class name="Test_Environment.UpgradeTradeIn_Counts.UTCounts_Variance1" />
+            <class name="Test_Environment.Weekly_Counts.Wkly_Counts_Variance2" />
+            <class name="Test_Environment.Void_Transactions.Weekly_Counts_Void" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
